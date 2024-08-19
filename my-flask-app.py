@@ -1,10 +1,10 @@
-from flask import Flask
+from  flask import Flask
 
-app = Fask("MyFlaskApp")
+app = Flask("MyFlaskApp")
 
-@app.route('/', mehtods=["GET"])
+@app.route('/', methods=["GET"])
 def welcome():
     return "<h1>Hello World</h1>"
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     app.run
